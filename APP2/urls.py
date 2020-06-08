@@ -1,5 +1,4 @@
 from django.urls import path
-
 from APP2 import views
 
 urlpatterns = [

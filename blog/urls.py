@@ -24,4 +24,5 @@ urlpatterns = [
     path('haha/', views.haha),
     path('index/', views.index),
     path('app2/', include('APP2.urls')),
+    path('app3/', include('APP3.urls')),
 ]
